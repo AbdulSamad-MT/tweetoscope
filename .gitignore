@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Secrets — NEVER commit these
+.x_cookies.json
+.env
+
+# Output data (local results)
+output/
+*_personality.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Notebook checkpoints
+.ipynb_checkpoints/
